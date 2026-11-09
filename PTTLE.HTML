@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cream Parfait | TLE Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            color: #5b321f;
+        }
+
+        header p {
+            color: #6b4635;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #5b321f;
+            text-align: center;
+            padding: 14px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd8b8;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 25px;
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            color: #7b472c;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #7b472c;
+            margin-bottom: 18px;
+        }
+
+        h3 {
+            color: #8d5a3c;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 220px;
+            background: #fff0e3;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .photo {
+            flex: 1;
+            min-width: 200px;
+            height: 170px;
+            background: #ead5c4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 10px;
+            color: #6b4635;
+            font-weight: bold;
+        }
+
+        .caption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            background: #5b321f;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 20px 12px;
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Grade 9 TLE Personal Portfolio</h1>
+        <p></p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#business">Business</a>
+        <a href="#contribution">My Contribution</a>
+        <a href="#pt">PT1 & PT2</a>
+        <a href="#log">Production Log</a>
+        <a href="#reflection">Reflection</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <h2>Welcome to My Portfolio</h2>
+
+        <p>
+            Welcome to my Grade 9 TLE Personal Website Portfolio.
+            This website showcases my contributions, activities,
+            documentation, and reflections throughout our Business
+            Proposal project.
+        </p>
+    </section>
+
+    <!-- BUSINESS PROPOSAL -->
+    <section id="business">
+
+        <h2>Our Business Proposal</h2>
+
+        <h3>Business Name</h3>
+
+        <p>
+            <strong>Cream Parfait</strong>
+        </p>
+
+        <h3>Business Description</h3>
+
+        <p>
+            Cream Parfait is a refreshing dessert made with fruits,
+            syrups, ice cream, and cream. It combines different
+            flavors and textures to create a balanced and enjoyable
+            dessert.
+        </p>
+
+        <h3>Target Customers</h3>
+
+        <p>
+            Our target customers include students, young people,
+            families, and older customers who enjoy refreshing
+            and customizable desserts.
+        </p>
+
+        <h3>Main Attraction</h3>
+
+        <p>
+            Our main attraction is the combination of colorful
+            fruits, creamy ingredients, ice cream, and syrups.
+            The appearance of the product makes it appealing
+            to customers.
+        </p>
+
+    </section>
+
+    <!-- MY CONTRIBUTION -->
+    <section id="contribution">
+
+        <h2>My Individual Contribution</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Marketing</h3>
+
+                <p>
+                    I helped develop marketing strategies for
+                    Cream Parfait and focused on attracting
+                    young customers.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Target Audience</h3>
+
+                <p>
+                    I helped identify our target audience,
+                    especially students and young people who
+                    are active on social media.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Social Media Promotion</h3>
+
+                <p>
+                    I helped plan social-media strategies to
+                    introduce Cream Parfait to potential
+                    customers.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Free Taste</h3>
+
+                <p>
+                    One of our marketing strategies was to
+                    offer free samples so customers could
+                    try the product before buying.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PT1 AND PT2 -->
+    <section id="pt">
+
+        <h2>Performance Tasks</h2>
+
+        <!-- PT1 -->
+        <h3>PT1 – Dango with Cream</h3>
+
+        <p>
+            For Performance Task 1, our group made dango with
+            cream and presented it in a fancy cup. We worked
+            together to prepare the food and focused on making
+            the final product look attractive and presentable.
+        </p>
+
+        <div class="gallery">
+
+            <div class="photo">
+                PT1 Preparation Photo
+            </div>
+
+            <div class="photo">
+                Dango Making Photo
+            </div>
+
+            <div class="photo">
+                <img src=C:\Users\tyler\OneDrive\Pictures\Screenshots\dango.png width="200" height="200">
+            </div>
+
+        </div>
+
+        <p class="caption">
+            PT1 documentation: Preparing and presenting our
+            dango with cream in a fancy cup.
+        </p>
+
+
+        <!-- PT2 -->
+        <h3>PT2 – Cream Parfait Business Proposal</h3>
+
+        <p>
+            For Performance Task 2, our group developed our
+            Cream Parfait business proposal. We worked on the
+            product concept, target market, marketing strategies,
+            and presentation of our business idea.
+        </p>
+
+        <div class="gallery">
+
+            <div class="photo">
+                PT2 Planning Photo
+            </div>
+
+            <div class="photo">
+                Business Proposal Photo
+            </div>
+
+            <div class="photo">
+                Group Presentation Photo
+            </div>
+
+        </div>
+
+        <p class="caption">
+            PT2 documentation: Planning, developing, and
+            presenting our Cream Parfait business proposal.
+        </p>
+
+    </section>
+
+
+    <!-- PRODUCTION LOG -->
+    <section id="log">
+
+        <h2>Production Log</h2>
+
+        <ul>
+            <li>Participated in planning our business proposal.</li>
+
+            <li>
+                Helped prepare the dango with cream for PT1.
+            </li>
+
+            <li>
+                Helped with the presentation of the PT1 product.
+            </li>
+
+            <li>
+                Helped develop the Cream Parfait business idea.
+            </li>
+
+            <li>
+                Contributed marketing strategies for our business.
+            </li>
+
+            <li>
+                Helped identify our target customers.
+            </li>
+
+            <li>
+                Contributed ideas for social-media promotion.
+            </li>
+
+            <li>
+                Helped organize documentation for the project.
+            </li>
+        </ul>
+
+    </section>
+
+
+    <!-- REFLECTION -->
+    <section id="reflection">
+
+        <h2>My Reflection</h2>
+
+        <p>
+            Working on our TLE activities helped me understand
+            the importance of teamwork, communication, creativity,
+            preparation, and planning.
+        </p>
+
+        <br>
+
+        <p>
+            During PT1, making dango with cream taught me how
+            preparation and presentation can affect the appearance
+            of a food product. Presenting the product in a fancy
+            cup also showed me how presentation can make food
+            more appealing.
+        </p>
+
+        <br>
+
+        <p>
+            During PT2, I learned more about how a business is
+            planned and promoted. My role in marketing helped me
+            understand how businesses identify their target
+            customers and use social media to attract them.
+        </p>
+
+        <br>
+
+        <p>
+            Overall, these activities helped me improve my
+            teamwork, creativity, communication, and
+            responsibility.
+        </p>
+
+    </section>
+
+
+    <!-- INDUSTRY STANDARDS -->
+    <section>
+
+        <h2>Industry Standards</h2>
+
+        <ul>
+            <li>Maintain good product quality.</li>
+
+            <li>Practice proper cleanliness and hygiene.</li>
+
+            <li>Handle food responsibly.</li>
+
+            <li>Communicate respectfully with customers.</li>
+
+            <li>Use appropriate marketing strategies.</li>
+
+            <li>Work responsibly as a team.</li>
+
+            <li>Consider customer satisfaction.</li>
+
+            <li>Present products in an attractive way.</li>
+        </ul>
+
+    </section>
+
+
+    <!-- CONCLUSION -->
+    <section>
+
+        <h2>Conclusion</h2>
+
+        <p>
+            The TLE activities gave me an opportunity to apply
+            creativity, teamwork, communication, and business
+            skills. From making our dango with cream to developing
+            the Cream Parfait business proposal, I gained useful
+            experience that I can apply to future projects.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>Grade 9 TLE Personal Portfolio</p>
+
+        <p>Cream Parfait Business Proposal</p>
+
+    </footer>
+
+</body>
+</html>
